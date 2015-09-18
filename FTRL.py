@@ -9,7 +9,7 @@ from operator import itemgetter
 
 import numpy as np
 from matplotlib import pyplot as plt
-# parameters #################################################################
+# parameters 
 from sklearn.isotonic import IsotonicRegression
 
 VERBOSE = True #Supplying information printing
@@ -23,7 +23,7 @@ test = 'test.csv'  #test file
 submission = 'submission_FTRL.csv'  #Output submission to Kaggle testing system
 
 #Parameters
-alpha = 0.3  #learning rate
+alpha = 0.3  #Learning rate
 beta = 1  #Parameter for adaptive learning rate
 L1 = 0.1  #L1 regularization
 L2 = 0.1  #L2 regularization
